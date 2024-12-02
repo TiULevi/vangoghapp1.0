@@ -1,5 +1,8 @@
 streamlit
 langchain
-langchain-community
-langchain-ollama
-llama-cpp-python
+chromadb
+sentence-transformers
+ollama
+pandas
+numpy
+
