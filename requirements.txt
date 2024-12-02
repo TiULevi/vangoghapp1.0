@@ -1,8 +1,8 @@
 streamlit
 langchain
+langchain-community
 chromadb
-sentence-transformers
-ollama
-pandas
-numpy
+transformers
+jsonschema
+
 
