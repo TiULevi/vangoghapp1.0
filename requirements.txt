@@ -2,7 +2,6 @@ streamlit
 langchain
 langchain-community
 chromadb
-transformers
 jsonschema
 
 
