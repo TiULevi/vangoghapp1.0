@@ -1,7 +1,7 @@
 import json
 
 # Load the JSON file
-with open("/Users/leviwarren/Downloads/letters_van_gogh (1).json", "r") as file:
+with open("letters_van_gogh (1).json", "r") as file:
     data = json.load(file)
 
 # Identify entries with invalid 'translated_text'
