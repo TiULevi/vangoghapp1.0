@@ -1,3 +1,5 @@
+import json
+
 # Load the JSON file
 with open("/Users/leviwarren/Downloads/letters_van_gogh (1).json", "r") as file:
     data = json.load(file)
