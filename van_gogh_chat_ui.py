@@ -1,22 +1,3 @@
-import streamlit as st
-from langchain.chains import ConversationalRetrievalChain
-from langchain.prompts import PromptTemplate
-from langchain.vectorstores import Chroma
-from langchain_ollama import OllamaLLM
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.schema import Document
-import json
-import json
-from langchain.schema import Document
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.chains import RetrievalQA
-from langchain.llms import LlamaCpp
-from langchain_community.llms.llamafile import Llamafile
-
 # Load the JSON file
 with open("/Users/leviwarren/Downloads/letters_van_gogh (1).json", "r") as file:
     data = json.load(file)
