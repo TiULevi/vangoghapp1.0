@@ -1,5 +1,12 @@
-import json
+from langchain.chains import ConversationalRetrievalChain, RetrievalQA
+from langchain.prompts import PromptTemplate
+from langchain.llms import LlamaCpp
+from langchain_community.llms.llamafile import Llamafile
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.vectorstores import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
+import json
 
 # Load the JSON file
 with open("letters_van_gogh (1).json", "r") as file:
