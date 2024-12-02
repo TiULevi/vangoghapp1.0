@@ -1,4 +1,5 @@
 import json
+from langchain.schema import Document
 
 # Load the JSON file
 with open("letters_van_gogh (1).json", "r") as file:
